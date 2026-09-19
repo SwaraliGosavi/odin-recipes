@@ -1,0 +1,154 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    line-height: 1.6;
+}
+
+
+/* Main Heading */
+
+h1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+/* Description */
+
+body > p:nth-of-type(1) {
+    color: #3882F6;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+body > p:nth-of-type(2) {
+    font-size: 17px;
+    color: #4B5563;
+    margin-bottom: 25px;
+}
+
+
+/* Recipe Image */
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto 35px;
+    border-radius: 12px;
+}
+
+
+/* Section Headings */
+
+p strong {
+    color: #1F2937;
+    font-size: 21px;
+}
+
+
+/* Ingredients */
+
+ul {
+    background-color: #E5E7EB;
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+
+/* Instructions */
+
+ol {
+    padding: 20px 45px;
+    background-color: white;
+    border-left: 5px solid #3882F6;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+ol li {
+    margin-bottom: 12px;
+}
+
+
+/* Recipe Information */
+
+body > p:nth-of-type(n+10) {
+    margin: 5px 0;
+}
+
+
+/* Chef's Tip */
+
+h4 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 12px 18px;
+    border-left: 5px solid #3882F6;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+h4 + p {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+
+/* Best Served With */
+
+h4 ~ p strong {
+    display: block;
+    margin-top: 25px;
+}
+
+h4 ~ p {
+    margin: 7px 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    ol,
+    ul {
+        padding-left: 30px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

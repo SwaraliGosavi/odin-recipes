@@ -1,0 +1,256 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 96px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 70px 96px;
+    gap: 50px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 9px 22px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero-image {
+    width: 45%;
+    height: 250px;
+
+    background-color: #6B7280;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* =========================
+   INFORMATION
+========================= */
+
+.information {
+    text-align: center;
+    padding: 40px 70px 70px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.card {
+    width: 160px;
+}
+
+.card-image {
+    width: 160px;
+    height: 160px;
+
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 55px;
+
+    margin-bottom: 8px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.card a {
+    color: #3882F6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   QUOTE
+========================= */
+
+.quote {
+    background-color: #E5E7EB;
+
+    padding: 70px 160px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* =========================
+   CALL TO ACTION
+========================= */
+
+.cta {
+    background-color: #3882F6;
+
+    width: 72%;
+
+    margin: 48px auto;
+
+    padding: 35px 60px;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta h2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.cta p {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 6px;
+
+    padding: 8px 25px;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+    text-align: center;
+
+    padding: 30px;
+
+    font-size: 14px;
+}
